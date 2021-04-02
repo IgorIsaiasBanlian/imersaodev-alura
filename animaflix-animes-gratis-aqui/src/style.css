@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: 'Bangers';
+    text-align: center;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: url('https://wallpaper.dog/large/5480079.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .container .fakeImg {
+    background: no-repeat center;
+    background-size: cover;
+  }
+
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #696969;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #696969;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  #listaAnimes img {
+    margin: 10px;
+  }
+  
+  .form-wrapper {
+    margin: 0 0 15px;
+  }
+  
+  .form-wrapper input {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+  }
+  
+  .form-wrapper button {
+    border: 0;
+    color: #ffffff;
+    background: #696969;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    borde-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .3s;
+  }
+  
+  .form-wrapper button:hover {
+    opacity: .8;
+  }
